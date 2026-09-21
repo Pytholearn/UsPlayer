@@ -11,8 +11,8 @@
 
   "site": "https://usplayer.ir",
 
-  "download": "",
-  "sha256": "",
+  "download": "https://github.com/Pytholearn/UsPlayer/releases/download/v1.0.1/UsPlayer-win64.zip",
+  "sha256": "3fd97a0e2e2f6bbce63a704704e6e60aa2ce8d700ff1995ba4c45b6b1bf78cd5",
   "notes": "",
 
   "notice": "",
