@@ -1,14 +1,22 @@
 {
   "version": "1.0.1",
   "min_version": "1.0.1",
+
   "relay": "46.29.34.230:24700",
   "relay_backups": [],
+  "relay_key": "",
+
   "ads_manifest": "http://46.29.34.230:8088/ads.json",
   "panel": "http://46.29.34.230:8088",
-  "site": "https://ilihazard.ir",
+
+  "site": "https://usplayer.ir",
+
   "download": "",
-  "support": "",
+  "sha256": "",
+  "notes": "",
+
   "notice": "",
   "notice_until": "",
+
   "updated": "2026-09-21"
 }
