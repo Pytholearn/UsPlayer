@@ -345,6 +345,6 @@ flowchart RL
 
 [Windows](https://github.com/Pytholearn/UsPlayer) · [Android](https://github.com/Pytholearn/UsPlayer-Android) · [MIT License](LICENSE)
 
-<sub>If Us Player made a movie night better, a ⭐ helps other people find it.<br>اگر Us Player یک شب فیلم را بهتر کرد، یک ⭐ کمک می‌کند بقیه هم پیدایش کنند.</sub>
+<sub>If Us Player made a movie night better, a ⭐ helps other people find it.</sub>
 اگر Us Player یک شب فیلم را بهتر کرد، یک ⭐ کمک می‌کند بقیه هم پیدایش کنند.
 </div>
