@@ -58,74 +58,130 @@
 
 <a id="features"></a>
 
-### ✨ Features
+<div align="center">
 
-<table>
+## ✨ **Features**
+
+**Watch together** · **Find any link** · **Pro-grade playback** · **Private by design**
+
+<br>
+
+| **Together** | **Player** | **Quality of life** |
+| :--: | :--: | :--: |
+| Synced rooms | Smart URLs | EN + FA UI |
+| Voice & chat | 4× speed & EQ | No telemetry |
+| ±100 ms sync | Subtitles & mini player | Auto-updates |
+
+</div>
+
+<br>
+
+<table width="100%">
+<thead>
 <tr>
-<td width="50%" valign="top">
-
-#### 🎬 Watch party
-- **Host or join by room name** — one click, no network setup
-- **Shared playback:** play, pause, seek, and speed changes sync for everyone
-- **Tight sync** (about ±100 ms) via clock alignment and gentle rate correction
-- Optional room **password** — verified on your device, not sent in plain text
-- **Host controls:** remove a guest or mute someone’s chat
-- **Shared subtitles:** files the host opens are sent to the room, including for late joiners
-
-</td>
-<td width="50%" valign="top">
-
-#### 🎙️ Stay connected
-- **Voice chat** — push-to-talk or always-on mic with a noise gate; mute anyone individually
-- **On-screen chat** — messages fade in along the bottom of the video
-- **Live reactions** 👍 ❤️ 😂 😮 🔥 👏
-- See who’s in the room, ping, connection quality, and who’s speaking
-- Typing indicators and unread message counts
-
-</td>
+<th align="left" width="50%"><strong>🎬 Watch party</strong></th>
+<th align="left" width="50%"><strong>🎙️ Stay connected</strong></th>
 </tr>
-<tr>
-<td valign="top">
-
-#### 🔗 Smart links
-- Paste a **movie page URL**, not only a direct file link — Us Player resolves `.mp4`, `.mkv`, or `.m3u8` and shows each step
-- Chooses the **main movie** at the best quality and skips trailers and clutter
-- **Search tab** with curated sites to find what you want to watch
-- Fixes broken URLs (including duplicated query parameters) automatically
-
-</td>
-<td valign="top">
-
-#### 🎛️ Player
-- **0.25×–4×** speed, frame step, chapters, screenshots
-- **Mini player** (always on top) and fullscreen with auto-hiding controls
-- **Resume playback**, watch history, and favorites
-- **Auto-reconnect** when a stream stalls; built-in network diagnostics
-- **Subtitles:** delay, size, color, outline, font, plus an **encoding picker** for Persian `.srt` files
-
-</td>
-</tr>
+</thead>
+<tbody>
 <tr>
 <td valign="top">
 
-#### 🔊 Audio & video
-- Volume up to **300%** with an optional compressor
-- **10-band equalizer** with presets, normalization
-- Brightness, contrast, saturation, gamma, hue — live
-- Aspect, crop, zoom, rotate, mirror, sharpen, deinterlace
+<ul>
+<li><strong>Join by room name</strong> — Host or enter in one click; no IPs or port forwarding.</li>
+<li><strong>Shared playback</strong> — Play, pause, seek, and speed stay in sync for everyone.</li>
+<li><strong>±100 ms sync</strong> — Clock alignment and gentle rate correction; seek when needed.</li>
+<li><strong>Room password</strong> — Optional; verified locally, never sent in plain text.</li>
+<li><strong>Host tools</strong> — Remove a guest or mute someone’s chat.</li>
+<li><strong>Shared subtitles</strong> — What the host opens is sent to the room, including late joiners.</li>
+</ul>
 
 </td>
 <td valign="top">
 
-#### 💙 Built with care
-- **English and Persian** UI with proper right-to-left layout
-- Three themes: **Us Blue**, Dark Purple, and Dark Mint
-- **First-run tour** in both supported UI languages
-- **Automatic updates** with **SHA-256 verification** before install
-- **Portable-friendly:** settings and history sit beside the app · **No telemetry**
+<ul>
+<li><strong>Voice chat</strong> — Push-to-talk or always-on mic with a noise gate; per-person mute.</li>
+<li><strong>On-screen chat</strong> — Messages fade in along the bottom of the video.</li>
+<li><strong>Live reactions</strong> — 👍 ❤️ 😂 😮 🔥 👏 across the screen.</li>
+<li><strong>Room roster</strong> — Who’s here, ping, connection quality, and who’s speaking.</li>
+<li><strong>Chat polish</strong> — Typing indicators and unread counts.</li>
+</ul>
 
 </td>
 </tr>
+</tbody>
+</table>
+
+<br>
+
+<table width="100%">
+<thead>
+<tr>
+<th align="left" width="50%"><strong>🔗 Smart links</strong></th>
+<th align="left" width="50%"><strong>🎛️ Player</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">
+
+<ul>
+<li><strong>Page URLs</strong> — Paste a movie page; Us Player finds <code>.mp4</code>, <code>.mkv</code>, or <code>.m3u8</code> and shows each step.</li>
+<li><strong>Best stream</strong> — Picks the main movie at the highest quality; skips trailers and clutter.</li>
+<li><strong>Search tab</strong> — Curated sites to find what you want to watch.</li>
+<li><strong>Link repair</strong> — Fixes broken URLs, including duplicated query strings.</li>
+</ul>
+
+</td>
+<td valign="top">
+
+<ul>
+<li><strong>Speed & frames</strong> — 0.25×–4× playback, frame step, chapters, screenshots.</li>
+<li><strong>Layouts</strong> — Mini player (always on top) and fullscreen with auto-hiding controls.</li>
+<li><strong>Your library</strong> — Resume, history, and favorites.</li>
+<li><strong>Reliability</strong> — Auto-reconnect when a stream stalls; network diagnostics.</li>
+<li><strong>Subtitles</strong> — Delay, size, color, outline, font, plus <strong>encoding</strong> for Persian <code>.srt</code> files.</li>
+</ul>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<br>
+
+<table width="100%">
+<thead>
+<tr>
+<th align="left" width="50%"><strong>🔊 Audio & video</strong></th>
+<th align="left" width="50%"><strong>💙 Built with care</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">
+
+<ul>
+<li><strong>Loud & clear</strong> — Volume up to <strong>300%</strong> with an optional compressor.</li>
+<li><strong>10-band EQ</strong> — Presets and normalization.</li>
+<li><strong>Picture controls</strong> — Brightness, contrast, saturation, gamma, and hue — live.</li>
+<li><strong>Transform</strong> — Aspect, crop, zoom, rotate, mirror, sharpen, deinterlace.</li>
+</ul>
+
+</td>
+<td valign="top">
+
+<ul>
+<li><strong>English & Persian</strong> — Full UI with proper right-to-left layout.</li>
+<li><strong>Themes</strong> — <strong>Us Blue</strong>, Dark Purple, and Dark Mint.</li>
+<li><strong>First-run tour</strong> — Guided intro in both UI languages.</li>
+<li><strong>Safe updates</strong> — Automatic updates with <strong>SHA-256</strong> verification.</li>
+<li><strong>Portable</strong> — Settings and history live next to the app · <strong>No telemetry</strong>.</li>
+</ul>
+
+</td>
+</tr>
+</tbody>
 </table>
 
 <a id="install"></a>
