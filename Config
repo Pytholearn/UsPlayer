@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "min_version": "1.0.1",
 
   "relay": "109.70.74.13:24700",
@@ -11,8 +11,8 @@
 
   "site": "https://usplayer.ir",
 
-  "download": "https://github.com/Pytholearn/UsPlayer/releases/download/v1.0.1/UsPlayer-win64.zip",
-  "sha256": "3fd97a0e2e2f6bbce63a704704e6e60aa2ce8d700ff1995ba4c45b6b1bf78cd5",
+  "download": "https://github.com/Pytholearn/UsPlayer/releases/download/v1.0.2/UsPlayer-win64.zip",
+  "sha256": "fe1e2e745301b854b06e24fd025f12da6cf870c5aaeaad0b37cf4e73716ea128",
   "notes": "",
 
   "notice": "",
