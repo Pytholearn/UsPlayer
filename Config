@@ -1,6 +1,6 @@
 {
-  "version": "2.0.2",
-  "min_version": "2.0.2",
+  "version": "1.0.1",
+  "min_version": "1.0.1",
 
   "relay": "109.70.74.13:24700",
   "relay_backups": [],
