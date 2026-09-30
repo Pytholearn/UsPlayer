@@ -2,12 +2,12 @@
   "version": "1.0.3",
   "min_version": "1.0.1",
 
-  "relay": "68.183.9.243:24700",
+  "relay": "91.216.217.119:24700",
   "relay_backups": [],
   "relay_key": "",
 
-  "ads_manifest": "http://68.183.9.243:8088/ads.json",
-  "panel": "http://68.183.9.243:8088",
+  "ads_manifest": "http://91.216.217.119:8088/ads.json",
+  "panel": "http://91.216.217.119:8088",
 
   "site": "https://usplayer.ir",
 
