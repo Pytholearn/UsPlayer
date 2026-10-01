@@ -16,13 +16,13 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/stack-Python%203.12%20%C2%B7%20PyQt6%20%C2%B7%20libVLC%203.0-1e293b?style=flat-square&logo=python&logoColor=fbbf24" alt="Python, PyQt6, libVLC">
+<img src="https://img.shields.io/badge/stack-Electron%20%C2%B7%20React%20%C2%B7%20Python%203.12%20%C2%B7%20libVLC%203.0-1e293b?style=flat-square&logo=electron&logoColor=9feaf9" alt="Electron, React, Python, libVLC">
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/app%20UI-English%20%7C%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C-2b7fff?style=flat-square" alt="App UI languages">
+<img src="https://img.shields.io/badge/app%20UI-English%20%7C%20%D9%81%D8%A7%D8%B1%D8%B3%DB%8C%20%7C%20%E4%B8%AD%E6%96%87%20%7C%20%D0%A0%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-2b7fff?style=flat-square" alt="App UI languages">
 <img src="https://img.shields.io/badge/docs-EN%20%7C%20%E4%B8%AD%E6%96%87%20%7C%20FA%20%7C%20RU-6a3cff?style=flat-square" alt="Documentation languages">
-<img src="https://img.shields.io/badge/telemetry-none-2ea44f?style=flat-square" alt="No telemetry">
+<img src="https://img.shields.io/badge/tracking-none-2ea44f?style=flat-square" alt="No tracking">
 <img src="https://img.shields.io/badge/port%20forwarding-not%20needed-2ea44f?style=flat-square" alt="No port forwarding">
 </p>
 
@@ -50,7 +50,7 @@
 
 ---
 
-**Us Player** is a watch-party player for Windows. Host a room with a **name**, invite friends with that same name, and everyone stays in sync — no IP addresses, port forwarding, or router tweaks. When someone pauses, the room pauses. Chat over the video, react with ❤️, and keep your eyes on the movie.
+**Us Player** is a watch-party player for Windows. Host a room, send your friends the invite code, and everyone stays in sync — no IP addresses, port forwarding, or router tweaks. When someone pauses, the room pauses. Find a film right inside the app, talk over voice, chat over the video, react with ❤️, and keep your eyes on the movie.
 
 > **Windows + Android:** Friends on phones can join the same room. The [Android app](https://github.com/Pytholearn/UsPlayer-Android) uses the same protocol as the desktop player.
 
@@ -62,15 +62,15 @@
 
 ## ✨ **Features**
 
-**Watch together** · **Find any link** · **Pro-grade playback** · **Private by design**
+**Watch together** · **Find a film** · **Pro-grade playback** · **Private by design**
 
 <br>
 
 | **Together** | **Player** | **Quality of life** |
 | :--: | :--: | :--: |
-| Synced rooms | Smart URLs | EN + FA UI |
-| Voice & chat | 4× speed & EQ | No telemetry |
-| ±100 ms sync | Subtitles & mini player | Auto-updates |
+| Synced rooms | Find a film | 4 UI languages |
+| Voice & chat | Smart URLs | No tracking |
+| Room admin | Subtitles & mini player | Auto-updates |
 
 </div>
 
@@ -88,11 +88,12 @@
 <td valign="top">
 
 <ul>
-<li><strong>Join by room name</strong> — Host or enter in one click; no IPs or port forwarding.</li>
+<li><strong>Join with a code</strong> — Host in one click and share the invite (<code>Usplayer:ABCD1234</code>); no IPs or port forwarding.</li>
 <li><strong>Shared playback</strong> — Play, pause, seek, and speed stay in sync for everyone.</li>
 <li><strong>±100 ms sync</strong> — Clock alignment and gentle rate correction; seek when needed.</li>
 <li><strong>Room password</strong> — Optional; verified locally, never sent in plain text.</li>
-<li><strong>Host tools</strong> — Remove a guest or mute someone’s chat.</li>
+<li><strong>The room’s admin</strong> — The host picks the film or lets a friend do it, and can kick, ban, or mute someone for everyone.</li>
+<li><strong>Rooms survive the host</strong> — If the admin leaves or their internet drops, the room passes to the next person who joined.</li>
 <li><strong>Shared subtitles</strong> — What the host opens is sent to the room, including late joiners.</li>
 </ul>
 
@@ -100,11 +101,12 @@
 <td valign="top">
 
 <ul>
-<li><strong>Voice chat</strong> — Push-to-talk or always-on mic with a noise gate; per-person mute.</li>
+<li><strong>Voice chat</strong> — Push-to-talk (hold <kbd>V</kbd>) or open mic, with echo cancellation and noise suppression.</li>
+<li><strong>Mute for me</strong> — Silence anyone just for yourself.</li>
 <li><strong>On-screen chat</strong> — Messages fade in along the bottom of the video.</li>
 <li><strong>Live reactions</strong> — 👍 ❤️ 😂 😮 🔥 👏 across the screen.</li>
 <li><strong>Room roster</strong> — Who’s here, ping, connection quality, and who’s speaking.</li>
-<li><strong>Chat polish</strong> — Typing indicators and unread counts.</li>
+<li><strong>Tidy rooms</strong> — A room with no film, chat, or voice for 10 minutes closes itself.</li>
 </ul>
 
 </td>
@@ -117,7 +119,7 @@
 <table width="100%">
 <thead>
 <tr>
-<th align="left" width="50%"><strong>🔗 Smart links</strong></th>
+<th align="left" width="50%"><strong>🔎 Find a film</strong></th>
 <th align="left" width="50%"><strong>🎛️ Player</strong></th>
 </tr>
 </thead>
@@ -126,9 +128,10 @@
 <td valign="top">
 
 <ul>
+<li><strong>Search by name</strong> — Films and series with poster, rating, and comments; press <strong>Play</strong>, nothing to download.</li>
 <li><strong>Page URLs</strong> — Paste a movie page; Us Player finds <code>.mp4</code>, <code>.mkv</code>, or <code>.m3u8</code> and shows each step.</li>
 <li><strong>Best stream</strong> — Picks the main movie at the highest quality; skips trailers and clutter.</li>
-<li><strong>Search tab</strong> — Curated sites to find what you want to watch.</li>
+<li><strong>Movie archive</strong> — Curated sites to find what you want to watch.</li>
 <li><strong>Link repair</strong> — Fixes broken URLs, including duplicated query strings.</li>
 </ul>
 
@@ -136,9 +139,9 @@
 <td valign="top">
 
 <ul>
-<li><strong>Speed & frames</strong> — 0.25×–4× playback, frame step, chapters, screenshots.</li>
+<li><strong>Speed & frames</strong> — Playback speed, frame step, chapters, screenshots.</li>
 <li><strong>Layouts</strong> — Mini player (always on top) and fullscreen with auto-hiding controls.</li>
-<li><strong>Your library</strong> — Resume, history, and favorites.</li>
+<li><strong>Your library</strong> — Resume, history, playlist, and favorites.</li>
 <li><strong>Reliability</strong> — Auto-reconnect when a stream stalls; network diagnostics.</li>
 <li><strong>Subtitles</strong> — Delay, size, color, outline, font, plus <strong>encoding</strong> for Persian <code>.srt</code> files.</li>
 </ul>
@@ -172,11 +175,12 @@
 <td valign="top">
 
 <ul>
-<li><strong>English & Persian</strong> — Full UI with proper right-to-left layout.</li>
-<li><strong>Themes</strong> — <strong>Us Blue</strong>, Dark Purple, and Dark Mint.</li>
-<li><strong>First-run tour</strong> — Guided intro in both UI languages.</li>
+<li><strong>Four languages</strong> — English, Persian, Chinese, and Russian, with proper right-to-left layout.</li>
+<li><strong>Themes</strong> — Dark, Light, or follow Windows.</li>
+<li><strong>First-run tour</strong> — English and Persian side by side.</li>
 <li><strong>Safe updates</strong> — Automatic updates with <strong>SHA-256</strong> verification.</li>
-<li><strong>Portable</strong> — Settings and history live next to the app · <strong>No telemetry</strong>.</li>
+<li><strong>Sharp everywhere</strong> — Correct on 125% and 150% display scaling.</li>
+<li><strong>Portable</strong> — Settings and history live next to the app.</li>
 </ul>
 
 </td>
@@ -194,15 +198,17 @@
 
 **Prefer portable?** Grab **`UsPlayer-win64.zip`**, extract it anywhere, and run **`UsPlayer.exe`** — no installer required.
 
+**Already installed?** The app updates itself; accept the update when it asks.
+
 <a id="watch-together"></a>
 
 ### 🍿 Start a watch party in three steps
 
 | Step | Host | Friends |
 |:-:|---|---|
-| **1** | Open **Party → Host**, pick a room name (optional password) | Open **Party → Join**, enter the same name |
-| **2** | Click **Create Room** | Click **Join** |
-| **3** | Open a movie from a link | The same movie opens for everyone, in sync |
+| **1** | Open **Party → Host**, add a room name and password if you like, click **Create Room** | Open **Party → Join** |
+| **2** | Click **Copy invite** and send the code | Paste the code, click **Join Room** |
+| **3** | Pick a film with **Find a film**, a link, or a file | The same film opens for everyone, in sync |
 
 <a id="how-it-works"></a>
 
@@ -226,10 +232,11 @@ flowchart LR
 ### 🔒 Privacy & security
 
 - **Room passwords stay on your PC.** Join uses a salted challenge–response; only a proof is sent over the network.
+- **The room’s secrets stay with the admin.** Friends only get what they need to carry the room on if the admin leaves.
 - **Untrusted-by-default messaging.** Room traffic is size-limited, validated, protected against replay, and rate-limited.
 - **Local file paths are not shared.** A path on your machine may not exist — or may point elsewhere — on a friend’s PC, so the room pauses and asks for a **link everyone can use**.
 - **Verified updates.** Downloads that don’t match the published **SHA-256** are rejected.
-- **No telemetry.** We don’t collect or send data about what you watch.
+- **No tracking.** We don’t collect what you watch. The only thing the app reports is an anonymous count when an ad is shown.
 
 <a id="faq"></a>
 
@@ -238,7 +245,19 @@ flowchart LR
 <details>
 <summary><b>Do friends need the same Wi‑Fi or an open port?</b></summary>
 <br>
-No. Rooms are registered by name on the relay, so anyone can join from anywhere using just the room name.
+No. The host gets an invite code from the relay, so anyone can join from anywhere with just that code.
+</details>
+
+<details>
+<summary><b>What happens if the host leaves or loses internet?</b></summary>
+<br>
+The room keeps going. It passes to the next person who joined, who becomes the new admin. If the old host comes back, they rejoin as a member.
+</details>
+
+<details>
+<summary><b>Do I need to turn my VPN off?</b></summary>
+<br>
+Not for Us Player itself — rooms, search, and posters work with a VPN on. Some Iranian movie sites block overseas IPs, though, so a film from one of them may play only with the VPN off.
 </details>
 
 <details>
@@ -256,13 +275,13 @@ Open subtitle settings and set <b>encoding</b> to <b>Windows-1256</b> — most P
 <details>
 <summary><b>Can I share a movie stored on my PC?</b></summary>
 <br>
-Not via a local file path — paths don’t work on other people’s machines. Use a **link** that everyone can open. If you try a local path, the room will pause and prompt you to share a link instead.
+Not via a local file path — paths don’t work on other people’s machines. Use a <b>link</b> that everyone can open, or pick the film with <b>Find a film</b>. If you try a local path, the room will pause and prompt you to share a link instead.
 </details>
 
 <details>
 <summary><b>A website says the movie can’t be played.</b></summary>
 <br>
-DRM-protected services (Filimo, Namava, Gapfilm, and similar) only play inside their official apps; Us Player will tell you clearly instead of failing silently. For some Iranian sites, **turning off your VPN** helps — their servers often block overseas IPs.
+DRM-protected services (Filimo, Namava, Gapfilm, and similar) only play inside their official apps; Us Player will tell you clearly instead of failing silently.
 </details>
 
 <a id="license"></a>
